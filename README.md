@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=435&lines=Hey%2C+I'm+饶欣瑶+%F0%9F%91%8B;aka+Rtwotwo+%F0%9F%90%9B;Welcome+to+my+GitHub+%F0%9F%8C%8D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=435&lines=Hey%2C+I'm+饶欣瑶+%F0%F0%9F%91%8B;aka+Rtwotwo+%F0%F0%9F%90%9B;Welcome+to+my+GitHub+%F0%F0%9F%8C%8D" alt="Typing SVG" />
 
 <img src="https://komarev.com/ghpvc/?username=Rtwotwo&color=6C63FF&style=flat-square&label=Visitors" />
 
@@ -31,19 +31,19 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rtwotwo&show_icons=true&theme=radical&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=C9D1D9" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rtwotwo&show_icons=true&theme=buefy&count_private=true&include_all_commits=true&hide_title=true&hide_border=false&border_color=e2e8f0&title_color=6C63FF&icon_color=6C63FF" />
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rtwotwo&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=C9D1D9" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rtwotwo&layout=compact&theme=buefy&hide_border=false&border_color=e2e8f0&title_color=6C63FF&hide_title=true" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Rtwotwo&theme=radical&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF&sideNums=C9D1D9&sideLabels=C9D1D9&dates=8B949E" />
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Rtwotwo&theme=buefy&hide_border=false&border=e2e8f0&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF&sideNums=333333&sideLabels=666666&dates=999999&background=FFFFFF" />
 
 </div>
 
 ---
 
 ### 🐍 Commit 贪吃蛇
-
-> *小蛇每天啃掉我的 commit 贡献格子 🎮*
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rtwotwo/Rtwotwo/output/github-contribution-grid-snake-dark.svg" />
@@ -57,7 +57,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Rtwotwo&theme=radical&no-frame=true&column=7&margin-w=8&bg_color=0D1117&title_color=6C63FF" />
+<img src="https://github-profile-trophy.vercel.app/?username=Rtwotwo&theme=flat&no-frame=false&column=7&margin-w=8&title_color=6C63FF" />
 
 </div>
 
