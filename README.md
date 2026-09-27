@@ -1,9 +1,7 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=435&lines=Hey%2C+I%27m+Yolo+Redal+%F0%9F%91%8B;You+can+also+call+me+Rtwotwo+%F0%9F%98%8A" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=700&lines=Hi%2C+I%27m+Yolo+Redal+%E2%80%94+you+can+also+call+me+Rtwotwo.;Welcome+to+my+GitHub%21" alt="Typing SVG" />
   <br>
   <img src="https://komarev.com/ghpvc/?username=Rtwotwo&color=6C63FF&style=flat-square&label=Visitors" alt="Visitor count" />
-
-  <p>Hi, I'm Yolo Redal — you can also call me Rtwotwo. Welcome to my GitHub!</p>
 </div>
 
 <p align="center">
