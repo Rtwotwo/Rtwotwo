@@ -4,8 +4,6 @@
   <img src="https://komarev.com/ghpvc/?username=Rtwotwo&color=6C63FF&style=flat-square&label=Visitors" alt="Visitor count" />
 </div>
 
-## Tools
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=vscode,git,github,docker,linux,python&perline=6" alt="Tools & Languages" />
 </p>
