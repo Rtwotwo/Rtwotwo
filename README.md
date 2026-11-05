@@ -1,15 +1,21 @@
 <div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=700&lines=Hi%2C+I%27m+Yolo+Redal;You+can+also+call+me+Rtwotwo;Welcome+to+my+GitHub%21" alt="Typing SVG" />
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=Rtwotwo&color=6C63FF&style=flat-square&label=Visitors" alt="Visitor count" />
+</div>
+
+## Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=vscode,git,github,docker,linux,python&perline=6" alt="Tools & Languages" />
+</p>
+
+<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Rtwotwo/Rtwotwo/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Rtwotwo/Rtwotwo/output/github-contribution-grid-snake.svg">
     <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/Rtwotwo/Rtwotwo/output/github-contribution-grid-snake.svg">
   </picture>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&random=false&width=700&lines=Hi%2C+I%27m+Yolo+Redal;You+can+also+call+me+Rtwotwo;Welcome+to+my+GitHub%21" alt="Typing SVG" />
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=Rtwotwo&color=6C63FF&style=flat-square&label=Visitors" alt="Visitor count" />
 </div>
 
 <!-- BEGIN PROFILE DETAILS -->
@@ -31,16 +37,4 @@ Also known as **Yolo Redal / Rtwotwo**.
 - **Ranked #1 on both official NAVSIM leaderboards as EABOT.AI:** [NAVTEST v1](https://huggingface.co/spaces/AGC2024-P/e2e-driving-navtest) (**96.1906 PDMS**) and [NAVHARD v2](https://huggingface.co/spaces/AGC2025/e2e-driving-navhard) (**64.5806 EPDMS**), verified November 5, 2026.
 - I enjoy building research systems with clear evaluation protocols and inspectable results. For collaboration, reach me at **[744044292@qq.com](mailto:744044292@qq.com)**.
 
-## Resume
-
-**[View / download my English resume (PDF)](assets/Xinyao_Rao_Resume.pdf)** · [Markdown version](assets/Xinyao_Rao_Resume.md) · [HTML file](assets/Xinyao_Rao_Resume.html)
-
-<sub>Target roles: Autonomous Driving / Foundation Model Algorithms. Download the HTML file to view or print it in a browser.</sub>
-
-## Tools
-
 <!-- END PROFILE DETAILS -->
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,git,github,docker,linux,python&perline=6" alt="Tools & Languages" />
-</p>
