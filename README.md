@@ -21,7 +21,6 @@
 # Xinyao Rao
 
 **Autonomous Driving · Foundation Models · Learning & Planning**
-
 Also known as **Yolo Redal / Rtwotwo**.
 
 [![Resume](https://img.shields.io/badge/Resume-English_PDF-087E8B?style=flat-square)](assets/Xinyao_Rao_Resume.pdf)
@@ -29,7 +28,7 @@ Also known as **Yolo Redal / Rtwotwo**.
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Rtwotwo-FFD21E?style=flat-square)](https://huggingface.co/Rtwotwo)
 [![Kaggle](https://img.shields.io/badge/Kaggle-yoloredal-20BEFF?style=flat-square)](https://www.kaggle.com/yoloredal)
 
-- I am a graduate student at **[Nanjing University](https://www.nju.edu.cn/)** (Sep 2026 - Sep 2029, expected), affiliated with the **[CITE Lab](https://cite.nju.edu.cn/)** and **[3D Vision Lab (NJU-3DV)](https://nju-3dv.github.io/)**, advised by **[Xun Cao](https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html)** and **[Wei Li](https://is.nju.edu.cn/lw/main.htm)**.
+- I am a graduate student at **[Nanjing University](https://www.nju.edu.cn/)** (Sep 2026 - Sep 2029), affiliated with the **[CITE Lab](https://cite.nju.edu.cn/)** and **[3D Vision Lab (NJU-3DV)](https://nju-3dv.github.io/)**, advised by **[Xun Cao](https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html)** and **[Wei Li](https://is.nju.edu.cn/lw/main.htm)**.
 - I completed my undergraduate studies at **[Northwestern Polytechnical University](https://www.nwpu.edu.cn/)** (Sep 2022 - Jun 2026).
 - My research centers on **autonomous driving and foundation models**, especially test-time trajectory optimization, camera-based end-to-end planning, and controlled policy improvement. I am also interested in **vision-language-action models and driving world models**.
 - **Ranked #1 on both official NAVSIM leaderboards as EABOT.AI:** [NAVTEST v1](https://huggingface.co/spaces/AGC2024-P/e2e-driving-navtest) (**96.1906 PDMS**) and [NAVHARD v2](https://huggingface.co/spaces/AGC2025/e2e-driving-navhard) (**64.5806 EPDMS**), verified November 5, 2026.
