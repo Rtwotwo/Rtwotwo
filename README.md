@@ -20,8 +20,8 @@
 
 # Xinyao Rao
 
-**Autonomous Driving · Foundation Models · Learning & Planning**
-Also known as **Yolo Redal / Rtwotwo**.
+Also known as **Yolo Redal / Rtwotwo**. Research Interests: **Autonomous Driving · Foundation Models · Learning & Planning**
+
 
 [![Resume](https://img.shields.io/badge/Resume-English_PDF-087E8B?style=flat-square)](assets/Xinyao_Rao_Resume.pdf)
 [![Email](https://img.shields.io/badge/Email-Contact-536575?style=flat-square)](mailto:744044292@qq.com)
