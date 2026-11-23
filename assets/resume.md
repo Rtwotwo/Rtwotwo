@@ -1,62 +1,50 @@
 # Xinyao Rao
 
-Autonomous Driving | Foundation Models | Learning & Planning
+**Algorithm Engineering | Foundation Models · Autonomous Driving**
 
-[744044292@qq.com](mailto:744044292@qq.com) | [github.com/Rtwotwo](https://github.com/Rtwotwo)
++86 198 2926 5306 · 744044292@qq.com · [GitHub](https://github.com/Rtwotwo) · [Google Scholar](https://scholar.google.com/citations?user=zRt1tLAAAAAJ&hl=en)
+
+Research interests: World Models, Foundation Models, Vision-Language Models, Autonomous Driving, and Pre-/Mid-/Post-training.
 
 ## Education
 
-**Nanjing University** | Sep 2026 - Sep 2029 (expected)<br>
-*Graduate studies | Autonomous Driving & Foundation Models*<br>
-[CITE Lab](https://cite.nju.edu.cn/) | [3D Vision Lab (NJU-3DV)](https://nju-3dv.github.io/)<br>
-Advisors: [Xun Cao](https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html) and [Wei Li](https://is.nju.edu.cn/lw/main.htm)
+**Nanjing University | Master’s studies** · Sep 2026 - Sep 2029 (expected)<br>
+CITE Lab / NJU-3DV · Advisors: Xun Cao and Wei Li
 
-**Northwestern Polytechnical University** | Sep 2022 - Jun 2026<br>
-*Undergraduate studies*<br>
+**Northwestern Polytechnical University | Undergraduate studies** · Sep 2022 - Jun 2026
 
-## Selected Achievement
+## Experience
 
-**NAVSIM Dual-Leaderboard #1** | As of Nov 5, 2026
+**EABOT | Intern** · Jul 2026 - present; planned end Jan 2027<br>
+Research focus: autonomous driving and trajectory planning.
 
-Ranked **1st as EABOT.AI**: [NAVTEST v1](https://huggingface.co/spaces/AGC2024-P/e2e-driving-navtest) **96.1906 PDMS**; [NAVHARD v2](https://huggingface.co/spaces/AGC2025/e2e-driving-navhard) **64.5806 EPDMS**.
+## Research Contributions
 
-## Research & Engineering Projects
+### DriveSTA | Learning from Scored Trajectory Alternatives for End-to-End Driving
 
-### DriveTTO | Test-Time Trajectory Optimization
+First author · arXiv:2611.27515 · 2026 · [Paper](https://arxiv.org/abs/2611.27515) · [Code](https://github.com/Rtwotwo/DriveSTA)
 
-[Project / Results](https://rtwotwo.github.io/DriveTTO/)
+- **Richer supervision.** Constructed scored alternatives beyond one human demonstration through smooth deformations, execution evaluation, and diversity screening: **2.61M targets across 95,998 real scenes**.
+- **Temporal planning.** Combined autoregressive proposals, Hungarian matching, and multi-target residual diffusion; shared **JEPA video features** between refinement and rescoring, avoiding online VLM inference.
+- **Quality and efficiency.** Scale achieved **95.55 NAVTEST PDMS** and **46.7 HUGSIM HD-Score** (345 episodes). Mean forward latency fell **73% (1,295 to 349 ms)** versus ChainFlow-VLA in matched H20, batch-1 evaluation.
 
-- Developed **training-free trajectory optimization** for frozen driving planners, retaining a complete reference plan while exploring endpoint, cross-planner, and bounded control-residual proposals.
-- Used **reference-relative selection** to compare candidates; built NAVSIM visualizations and a HUGSIM closed-loop rollout gallery to inspect search decisions and driving behavior.
-- Reached **95.6055 PDMS on NAVTEST (#3)** and **58.6340 EPDMS on NAVHARD (#5)** with the official EABOT.AI&NJU entry linked to DriveTTO.
+### DriveTTO | Search and Selection in Test-Time Trajectory Optimization
 
-### CoFiDrive | Camera-Based End-to-End Planning
+First author · Manuscript · 2026 · [Project](https://rtwotwo.github.io/DriveTTO/) · [Code](https://github.com/Rtwotwo/DriveTTO)
 
-[Code](https://github.com/Rtwotwo/DriveCoFi)
+- **Training-free search.** Coupled proposal-supported endpoint search with bounded refinement and time-aligned fusion of proposal and control branches, keeping **all planners and scorers frozen**.
+- **Reliable selection.** Required both scorers to predict reference-relative gains before branch/fusion updates. Recovered **51.35% of native zero-PDMS cases** on average; net zero-score rate fell from **1.63% to 1.13%**.
+- **Generalization.** Reached **95.54 PDMS / 92.30 EPDMS** on NAVTEST and **57.10 EPDMS** on NAVHARD under benchmark-specific configurations. The single-scorer variant improved **all six evaluated planners** on both splits.
 
-- Extended a DrivoR-based planner with **DINOv2 / LoRA**, six scene-conditioned experts over 64 camera registers, and gated fusion of scene and spatial patch memories for trajectory scoring.
-- Added **192 training-only control-space augmentation slots** to expand scorer supervision; kept inference at 64 proposals with no extra learned parameters from augmentation.
-- Reported **92.4 PDMS** on NAVSIM-v1 navtest (train85k, 10 epochs, mean of three training seeds); released training, evaluation, ablation configurations, and planning visualizations.
+### Spark-H3 | Adaptive Block Sparse Attention for Video Diffusion Models
 
-### DriveRSI-R0 | Controlled Policy Improvement
+Co-author (4th author) · arXiv:2611.24256 · 2026 · [Paper](https://arxiv.org/abs/2611.24256)
 
-[Code](https://github.com/Rtwotwo/DriveRSI-R0)
+- **Adaptive grouping.** Co-authored a training-free attention method. **Spark-Reblock** recursively groups tokens by attention preference into regular tiles, combining adaptive sparsity with GPU-friendly block structure.
+- **Attention calibration.** **Spark-Reweight** uses a global query anchor to build weighted KV representatives and logit biases; exact and compressed branches share normalization to preserve attention mass.
+- **Measured acceleration.** Achieved **2.49× DiT speedup** with **24.81 dB PSNR** versus dense outputs on MiniMax-H3 at 10% exact-block density (20 steps, 345 frames, 1344×768; 4 dense warm-up steps).
 
-- Built **DriveHarness** to connect failure diagnosis, training-experience retrieval, branch generation, sample admission, native model training, and evaluation with explicit budgets and data provenance.
-- Integrated model adapters, checkpoint recovery, and promotion / rollback gates with train/test separation and image-object-trajectory consistency checks; documented **191 selected CPU tests** in release verification.
+## Technical Skills
 
-### DriveTraj | NAVSIM Trajectory Planning
-
-[Leaderboard](https://huggingface.co/spaces/AGC2024-P/e2e-driving-navtest)
-
-- Submitted **DriveTraj-scale (95.5520 PDMS, #6)** and **DriveTraj-base (94.9290 PDMS, #10)** to the official NAVSIM-v1 NAVTEST leaderboard.
-
-## Technical Skills & Open Source
-
-- **Programming & Tools:** Python, PyTorch, NumPy, OpenCV, Git, Linux
-- **Modeling:** Vision Transformers, DINOv2, LoRA / adapters, trajectory scoring, reward modeling, PPO / GAE
-- **Research Engineering:** NAVSIM evaluation, experiment recovery, data provenance, reproducible ablations
-
-**Open Source:** Curate [AutoDrive Research](https://github.com/Rtwotwo/Awesome-Autonomous-Driving-Research): source-linked papers, code, and evaluation protocols for end-to-end driving, VLA, and world models.
-
-*Official leaderboard ranks checked November 5, 2026.*
+- **Tools:** Python, PyTorch, NumPy, OpenCV, Linux, Git.
+- **Modeling & evaluation:** Vision Transformers, DINOv2/LoRA, JEPA, diffusion models, trajectory scoring, NAVSIM/HUGSIM, reproducible ablations, experiment recovery.

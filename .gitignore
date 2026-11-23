@@ -1,0 +1,12 @@
+
+# Local preview and generated deployment output
+_site/
+.local-backups/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.log
+
+# Previous PDF may be open in a viewer; use assets/cv.pdf.
+/assets/resume.pdf

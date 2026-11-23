@@ -1,0 +1,56 @@
+name: Deploy academic homepage
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'assets/**'
+      - '.nojekyll'
+      - 'scripts/check_site.py'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate local assets and internal links
+        run: python3 scripts/check_site.py
+      - name: Check browser JavaScript syntax
+        run: node --check assets/site/main.js
+      - uses: actions/configure-pages@v5
+      - name: Prepare static website
+        run: |
+          mkdir -p _site/assets
+          cp index.html .nojekyll _site/
+          cp -R assets/site _site/assets/
+          cp assets/resume.html assets/cv.pdf _site/assets/
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
