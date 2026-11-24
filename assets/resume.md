@@ -22,7 +22,7 @@ Research focus: autonomous driving and trajectory planning.
 
 ### DriveSTA | Learning from Scored Trajectory Alternatives for End-to-End Driving
 
-First author · arXiv:2611.27515 · 2026 · [Paper](https://arxiv.org/abs/2611.27515) · [Code](https://github.com/Rtwotwo/DriveSTA)
+First author · arXiv:2611.27515 · 2026 · [Paper](https://arxiv.org/abs/2611.27515) · [Project](https://rtwotwo.github.io/DriveSTA/) · [Code](https://github.com/Rtwotwo/DriveSTA)
 
 - **Richer supervision.** Constructed scored alternatives beyond one human demonstration through smooth deformations, execution evaluation, and diversity screening: **2.61M targets across 95,998 real scenes**.
 - **Temporal planning.** Combined autoregressive proposals, Hungarian matching, and multi-target residual diffusion; shared **JEPA video features** between refinement and rescoring, avoiding online VLM inference.
@@ -30,7 +30,7 @@ First author · arXiv:2611.27515 · 2026 · [Paper](https://arxiv.org/abs/2611.2
 
 ### DriveTTO | Search and Selection in Test-Time Trajectory Optimization
 
-First author · Manuscript · 2026 · [Project](https://rtwotwo.github.io/DriveTTO/) · [Code](https://github.com/Rtwotwo/DriveTTO)
+First author · arXiv:2611.29205 · 2026 · [Paper](https://arxiv.org/abs/2611.29205) · [Project](https://rtwotwo.github.io/DriveTTO/) · [Code](https://github.com/Rtwotwo/DriveTTO)
 
 - **Training-free search.** Coupled proposal-supported endpoint search with bounded refinement and time-aligned fusion of proposal and control branches, keeping **all planners and scorers frozen**.
 - **Reliable selection.** Required both scorers to predict reference-relative gains before branch/fusion updates. Recovered **51.35% of native zero-PDMS cases** on average; net zero-score rate fell from **1.63% to 1.13%**.
@@ -38,7 +38,7 @@ First author · Manuscript · 2026 · [Project](https://rtwotwo.github.io/DriveT
 
 ### Spark-H3 | Adaptive Block Sparse Attention for Video Diffusion Models
 
-Co-author (4th author) · arXiv:2611.24256 · 2026 · [Paper](https://arxiv.org/abs/2611.24256)
+Co-author (4th author) · arXiv:2611.24256 · 2026 · [Paper](https://arxiv.org/abs/2611.24256) · [Project](https://zechengtang.github.io/Spark-H3/) · [Code](https://github.com/zechengtang/Spark-H3)
 
 - **Adaptive grouping.** Co-authored a training-free attention method. **Spark-Reblock** recursively groups tokens by attention preference into regular tiles, combining adaptive sparsity with GPU-friendly block structure.
 - **Attention calibration.** **Spark-Reweight** uses a global query anchor to build weighted KV representatives and logit biases; exact and compressed branches share normalization to preserve attention mass.

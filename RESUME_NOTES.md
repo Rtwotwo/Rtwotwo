@@ -29,7 +29,7 @@
 
 ### DriveTTO
 
-[项目仓库](https://github.com/Rtwotwo/DriveTTO)与[项目页](https://rtwotwo.github.io/DriveTTO/)。已补读用户提供的 20 页 `main_arxiv.pdf`：标题为 DriveTTO: Understanding Search and Selection in Test-Time Trajectory Optimization for End-to-End Driving，第一作者为 Xinyao Rao。标注 Manuscript, arXiv announcement pending，保留项目链接；按本人要求，稿件 PDF 不上传仓库或主页。
+[项目仓库](https://github.com/Rtwotwo/DriveTTO)与[项目页](https://rtwotwo.github.io/DriveTTO/)。已补读用户提供的 20 页 `main_arxiv.pdf`：标题为 DriveTTO: Understanding Search and Selection in Test-Time Trajectory Optimization for End-to-End Driving，第一作者为 Xinyao Rao。已于 2026-11-24 核对 [arXiv:2611.29205](https://arxiv.org/abs/2611.29205) 的正式标题、作者和摘要，标注 arXiv preprint；保留项目链接；按本人要求，稿件 PDF 不上传仓库或主页。
 
 - 完整参考轨迹保留、端点请求补全、实际到达终点反馈、跨模型候选、局部几何与控制残差、时间对齐融合、相对参考选择。
 - 当前项目 README 报告 NAVTEST 95.54 PDMS / 92.30 EPDMS、NAVHARD 57.1 EPDMS，345 个 HUGSIM 场景 RC 54.5 / HD-Score 40.1。
@@ -56,3 +56,7 @@ DriveTTO 第 3 节明确区分端点阶段与双评分器分支/融合检查，�
 ## 实习单位英文名称更正
 
 2026-11-24 核实：[EABOT 官方网站](https://www.eabot.tech/)使用 EABOT 品牌，对应易博图；[易控智驾官方品牌说明](https://www.eacon.com/news/753.html)明确其英文为 EACON。根据本人明确确认的实习单位，简历、README 和主页统一使用 EABOT。两者不得用 Yibotu / Yikong 拼音代替，也不推断未经核实的法律隶属关系。
+
+## 公开论文链接更新（2026-11-24）
+
+DriveTTO 使用正式 arXiv 链接，仍不上传本地稿件 PDF。三篇论文在简历中均提供 Paper / Project / Code 链接；Spark-H3 的项目与代码分别来自 [官方项目页](https://zechengtang.github.io/Spark-H3/) 和 [官方仓库](https://github.com/zechengtang/Spark-H3)。

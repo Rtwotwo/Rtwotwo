@@ -37,7 +37,7 @@ node --check assets/site/main.js
 
 ## 素材与内容来源
 
-头像使用本人提供的照片；DriveSTA 配图取自本人项目仓库。Spark-H3 与 DriveTTO 缩略图截取自原始论文中的方法图/概览图。论文作者、状态与链接见 arXiv 页面；DriveTTO 使用本人提供的论文稿件核对贡献与作者，仅展示论文介绍和项目链接，不上传稿件 PDF；arXiv 正式编号公开后再补充，不虚构录用会议。
+头像使用本人提供的照片；DriveSTA 配图取自本人项目仓库。Spark-H3 与 DriveTTO 缩略图截取自原始论文中的方法图/概览图。论文作者、状态与链接见 arXiv 页面；DriveTTO 使用本人提供的论文稿件核对贡献与作者，仅展示论文介绍和项目链接，不上传稿件 PDF；正式 arXiv 链接为 https://arxiv.org/abs/2611.29205。
 
 设计与简历取舍、论文指标定位见 `RESUME_NOTES.md`。原简历备份位于本地 `.local-backups/`，不参与 Git 追踪和 Pages 发布。
 

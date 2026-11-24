@@ -25,15 +25,16 @@ Also known as **Yolo Redal / Rtwotwo**.
 
 [![Resume](https://img.shields.io/badge/Resume-English_PDF-087E8B?style=flat-square)](assets/cv.pdf)
 [![Email](https://img.shields.io/badge/Email-Contact-536575?style=flat-square)](mailto:744044292@qq.com)
+[![Google Scholar](https://img.shields.io/badge/Google_Scholar-Publications-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=zRt1tLAAAAAJ&hl=en)
+[![Homepage](https://img.shields.io/badge/Homepage-GitHub.io-222222?style=flat-square&logo=github&logoColor=white)](https://rtwotwo.github.io/Rtwotwo/)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Rtwotwo-FFD21E?style=flat-square)](https://huggingface.co/Rtwotwo)
-[![Kaggle](https://img.shields.io/badge/Kaggle-yoloredal-20BEFF?style=flat-square)](https://www.kaggle.com/yoloredal)
 
 - I am a **master’s student at [Nanjing University](https://www.nju.edu.cn/)** (2026–2029, expected).<br>
   I work with [CITE Lab](https://cite.nju.edu.cn/) and [NJU-3DV](https://nju-3dv.github.io/), advised by [Xun&nbsp;Cao](https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html) and [Wei&nbsp;Li](https://is.nju.edu.cn/lw/main.htm).
 - My undergraduate studies were at **[Northwestern Polytechnical University](https://www.nwpu.edu.cn/)** (2022–2026); I now&nbsp;intern&nbsp;at&nbsp;**[EABOT](https://www.eabot.tech/)**.
 - My research interests span **World Models, Foundation Models, and Vision‑Language Models**,<br>
   as well as **Autonomous Driving and&nbsp;Pre‑/Mid‑/Post‑training**.
-- My recent work includes [DriveSTA](https://arxiv.org/abs/2611.27515) (trajectory supervision) and [DriveTTO](https://rtwotwo.github.io/DriveTTO/) (test-time planning),<br>
+- My recent work includes [DriveSTA](https://arxiv.org/abs/2611.27515) (trajectory supervision) and [DriveTTO](https://arxiv.org/abs/2611.29205) (test-time planning),<br>
   alongside [Spark-H3](https://arxiv.org/abs/2611.24256) (efficient attention for video diffusion).
 - As of **Nov 5, 2026**, our **EABOT.AI** entry ranked **#1** on both NAVSIM leaderboards:<br>
   [NAVTEST v1](https://huggingface.co/spaces/AGC2024-P/e2e-driving-navtest) — **96.19&nbsp;PDMS** · [NAVHARD v2](https://huggingface.co/spaces/AGC2025/e2e-driving-navhard) — **64.58&nbsp;EPDMS**.
