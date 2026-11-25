@@ -29,31 +29,13 @@ Also known as **Yolo Redal / Rtwotwo**.
 [![Homepage](https://img.shields.io/badge/Homepage-GitHub.io-222222?style=flat-square&logo=github&logoColor=white)](https://rtwotwo.github.io/Rtwotwo/)
 [![Hugging Face](https://img.shields.io/badge/Hugging_Face-Rtwotwo-FFD21E?style=flat-square)](https://huggingface.co/Rtwotwo)
 
-- I am a **master’s student at [Nanjing University](https://www.nju.edu.cn/)** (2026–2029, expected).<br>
-  I work with [CITE Lab](https://cite.nju.edu.cn/) and [NJU-3DV](https://nju-3dv.github.io/), advised by [Xun&nbsp;Cao](https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html) and [Wei&nbsp;Li](https://is.nju.edu.cn/lw/main.htm).
-- My undergraduate studies were at **[Northwestern Polytechnical University](https://www.nwpu.edu.cn/)** (2022–2026); I now&nbsp;intern&nbsp;at&nbsp;**[EABOT](https://www.eabot.tech/)**.
-- My research interests span **World Models, Foundation Models, and Vision‑Language Models**,<br>
-  as well as **Autonomous Driving and&nbsp;Pre‑/Mid‑/Post‑training**.
-- My recent work includes [DriveSTA](https://arxiv.org/abs/2611.27515) (trajectory supervision) and [DriveTTO](https://arxiv.org/abs/2611.29205) (test-time planning),<br>
-  alongside [Spark-H3](https://arxiv.org/abs/2611.24256) (efficient attention for video diffusion).
-- As of **Nov 5, 2026**, our **EABOT.AI** entry ranked **#1** on both NAVSIM leaderboards:<br>
-  [NAVTEST v1](https://huggingface.co/spaces/AGC2024-P/e2e-driving-navtest) — **96.19&nbsp;PDMS** · [NAVHARD v2](https://huggingface.co/spaces/AGC2025/e2e-driving-navhard) — **64.58&nbsp;EPDMS**.
-- Find my papers on [Google&nbsp;Scholar](https://scholar.google.com/citations?user=zRt1tLAAAAAJ&hl=en), models and datasets on [Hugging&nbsp;Face](https://huggingface.co/Rtwotwo),<br>
-  and personal updates on&nbsp;[Xiaohongshu](https://xhslink.cn/o/3UayJjRbFI3).
-- More about my work: [academic homepage](https://rtwotwo.github.io/Rtwotwo/) · [Resume](assets/cv.pdf).<br>
-  For research discussions and collaboration, email [744044292@qq.com](mailto:744044292@qq.com).
+- I am a **master’s student at [Nanjing University](https://www.nju.edu.cn/)** (2026–2029, expected), affiliated with [CITE Lab](https://cite.nju.edu.cn/) and [NJU-3DV](https://nju-3dv.github.io/) and advised by [Xun&nbsp;Cao](https://cite.nju.edu.cn/People/Faculty/20190621/i5054.html) and [Wei&nbsp;Li](https://is.nju.edu.cn/lw/main.htm). I completed my undergraduate studies at **[Northwestern Polytechnical&nbsp;University](https://www.nwpu.edu.cn/)**&nbsp;(2022–2026).
+- My research interests span **World Models, Foundation Models, Vision‑Language Models, Autonomous Driving, and Pre‑/Mid‑/Post‑training**. I focus on learning visual representations that support prediction&nbsp;and&nbsp;planning.
+- I am currently interning at **[EABOT](https://www.eabot.tech/)**, focusing on autonomous driving and trajectory planning. My recent work includes [DriveSTA](https://arxiv.org/abs/2611.27515), which learns trajectory generation, refinement, and selection from scored alternatives, and [DriveTTO](https://arxiv.org/abs/2611.29205), which combines test-time trajectory search with reference-relative selection using frozen&nbsp;planners&nbsp;and&nbsp;scorers.
+- I also co-authored [Spark-H3](https://arxiv.org/abs/2611.24256), a training-free sparse attention method for video diffusion that combines adaptive token grouping with attention reweighting. At **10% exact‑block density** on MiniMax-H3, it delivers **2.49× DiT speedup** and **24.81 dB PSNR** relative to the corresponding&nbsp;dense&nbsp;model&nbsp;outputs.
+- As of **November 5, 2026**, our **EABOT.AI** entry ranked **#1** on both official NAVSIM leaderboards, with **96.19&nbsp;PDMS** on [NAVTEST&nbsp;v1](https://huggingface.co/spaces/AGC2024-P/e2e-driving-navtest) and **64.58&nbsp;EPDMS** on the more challenging&nbsp;[NAVHARD&nbsp;v2](https://huggingface.co/spaces/AGC2025/e2e-driving-navhard).
+- My publications are on [Google&nbsp;Scholar](https://scholar.google.com/citations?user=zRt1tLAAAAAJ&hl=en), with models and datasets on [Hugging&nbsp;Face](https://huggingface.co/Rtwotwo) and updates on [Xiaohongshu](https://xhslink.cn/o/3UayJjRbFI3). Visit my [homepage](https://rtwotwo.github.io/Rtwotwo/) or [Resume](assets/cv.pdf) for details, or email [744044292@qq.com](mailto:744044292@qq.com) for&nbsp;research&nbsp;collaboration.
 
 <!-- END PROFILE DETAILS -->
 
-## Recent Reading
-
-Selected additions · November 25, 2026 · Pretraining and world models
-
-- **[FineWeb](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1)** — data filtering, deduplication, and ablations.
-- **[OLMo 2](https://allenai.org/blog/olmo2)** — stable pretraining and staged data mixtures.
-- **[The Ultra-Scale Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook)** — distributed training and scaling trade-offs.
-- **[TorchTitan: 1T MoE training](https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan/)** — memory, communication, and throughput in practice.
-- **[V-JEPA 2](https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/)** — video pretraining and action-conditioned world models.
-- **[Video foundation model pipelines](https://developer.nvidia.com/blog/accelerate-custom-video-foundation-model-pipelines-with-new-nvidia-nemo-framework-capabilities/)** — video curation, data loading, and distributed training.
-
-[Browse my reading list](READING.md) — technical blogs and selected articles, organized by topic.
+[Browse my reading list](READING.md) — curated technical blogs and selected articles, organized by topic.

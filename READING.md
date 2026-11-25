@@ -2,9 +2,17 @@
 
 [Back to my profile](README.md)
 
-Technical blogs and selected articles on model foundations, pretraining, world models, LLMs, agents, and ML systems.
+A curated directory of technical blogs and long-form articles on model foundations, pretraining, world models, agents, and ML systems. The emphasis is on clear derivations, practical training recipes, and implementation details; papers and code serve as companion references.
 
 Recent additions (November 25, 2026) focus on data quality, reproducible training recipes, distributed systems, and video representation learning. Suggested order: **FineWeb → OLMo 2 → Ultra-Scale Playbook → TorchTitan**, followed by **V-JEPA 2 → video foundation model pipelines**.
+
+## Core Blogs
+
+- **Theory and generative models:** [Jianlin Su — Scientific Spaces](https://kexue.fm/), [Sander Dieleman](https://sander.ai/), and [Yang Song](https://yang-song.net/blog/).
+- **LLMs and training practice:** [Sebastian Raschka](https://sebastianraschka.com/blog/), [Ahead of AI](https://magazine.sebastianraschka.com/), and the [Hugging Face Blog](https://huggingface.co/blog).
+- **Research surveys and systems:** [Lilian Weng — Lil’Log](https://lilianweng.github.io/), [Chip Huyen](https://huyenchip.com/blog/), and [Edward Z. Yang](https://blog.ezyang.com/).
+
+The topic sections below collect specific articles, reading priorities, and implementation links. The pretraining and world-model additions are kept here together with the established blog directory.
 
 ## Browse by Topic
 
