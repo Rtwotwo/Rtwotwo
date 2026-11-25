@@ -2,11 +2,15 @@
 
 [Back to my profile](README.md)
 
-Technical blogs and selected articles on model foundations, LLMs, agents, and ML systems.
+Technical blogs and selected articles on model foundations, pretraining, world models, LLMs, agents, and ML systems.
+
+Recent additions (November 25, 2026) focus on data quality, reproducible training recipes, distributed systems, and video representation learning. Suggested order: **FineWeb → OLMo 2 → Ultra-Scale Playbook → TorchTitan**, followed by **V-JEPA 2 → video foundation model pipelines**.
 
 ## Browse by Topic
 
 - [Model Foundations and Mathematics](#model-foundations-and-mathematics)
+- [Foundation Model Pretraining and Scaling](#foundation-model-pretraining-and-scaling)
+- [Multimodal and World Model Pretraining](#multimodal-and-world-model-pretraining)
 - [LLMs, Agents and Post-training](#llms-agents-and-post-training)
 - [ML Systems and Engineering](#ml-systems-and-engineering)
 
@@ -19,6 +23,28 @@ Technical blogs and selected articles on model foundations, LLMs, agents, and ML
 - **[Gregory Gundersen](https://gregorygundersen.com/blog/)** · Probability, statistics, and linear algebra · [The Log-Sum-Exp Trick](https://gregorygundersen.com/blog/2020/02/09/log-sum-exp/)
 - **[Transformer Circuits](https://transformer-circuits.pub/)** · Mechanistic interpretability · [A Mathematical Framework for Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)
 - **[Chris Olah — colah's blog](https://colah.github.io/)** · Visual explanations · [Visual Information Theory](https://colah.github.io/posts/2015-09-Visual-Information/)
+
+## Foundation Model Pretraining and Scaling
+
+Selected for explicit data decisions, training recipes, reproducibility, and implementation detail.
+
+- **[FineWeb: decanting the web for the finest text data at scale](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1)** — Hugging Face.<br>
+  Study filtering, MinHash deduplication, and controlled data-quality ablations before choosing a pretraining corpus. Pair the article with [DataTrove](https://github.com/huggingface/datatrove) to inspect the processing pipeline.
+- **[OLMo 2](https://allenai.org/blog/olmo2)** — Ai2.<br>
+  Study training stability, late-stage data curricula, learning-rate annealing, and evaluation. The [technical report](https://arxiv.org/abs/2501.00656) documents the recipe; [OLMo-core](https://github.com/allenai/OLMo-core) provides a companion training implementation.
+- **[The Ultra-Scale Playbook: Training LLMs on GPU Clusters](https://huggingface.co/spaces/nanotron/ultrascale-playbook)** — Hugging Face.<br>
+  Build a working understanding of data, tensor, pipeline, context, and expert parallelism. Focus on memory budgets, communication costs, and how combinations of parallelism affect throughput.
+- **[Training a 1T-Parameter MoE with PyTorch and TorchTitan](https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan/)** — EUROPA consortium / PyTorch.<br>
+  Follow a concrete systems case study: FSDP and expert placement, optimizer communication, activation offloading, and compute/communication overlap. Read after the playbook, alongside [TorchTitan](https://github.com/pytorch/torchtitan).
+
+## Multimodal and World Model Pretraining
+
+Selected for their connection to video representations, world models, and autonomous-driving research.
+
+- **[V-JEPA 2: video pretraining and world models](https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/)** — Meta.<br>
+  Study action-free video pretraining followed by action-conditioned training, and how predicted representations support planning. Pair the article with the [official implementation](https://github.com/facebookresearch/vjepa2).
+- **[Accelerate Custom Video Foundation Model Pipelines with NVIDIA NeMo](https://developer.nvidia.com/blog/accelerate-custom-video-foundation-model-pipelines-with-new-nvidia-nemo-framework-capabilities/)** — NVIDIA.<br>
+  Study video clipping and sharding, multimodal data loading, sequence packing, and distributed video-model training. Especially useful for connecting video data preparation to GPU utilization in generative world-model pipelines.
 
 ## LLMs, Agents and Post-training
 

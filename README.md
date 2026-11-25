@@ -47,4 +47,13 @@ Also known as **Yolo Redal / Rtwotwo**.
 
 ## Recent Reading
 
+Selected additions · November 25, 2026 · Pretraining and world models
+
+- **[FineWeb](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1)** — data filtering, deduplication, and ablations.
+- **[OLMo 2](https://allenai.org/blog/olmo2)** — stable pretraining and staged data mixtures.
+- **[The Ultra-Scale Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook)** — distributed training and scaling trade-offs.
+- **[TorchTitan: 1T MoE training](https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan/)** — memory, communication, and throughput in practice.
+- **[V-JEPA 2](https://ai.meta.com/blog/v-jepa-2-world-model-benchmarks/)** — video pretraining and action-conditioned world models.
+- **[Video foundation model pipelines](https://developer.nvidia.com/blog/accelerate-custom-video-foundation-model-pipelines-with-new-nvidia-nemo-framework-capabilities/)** — video curation, data loading, and distributed training.
+
 [Browse my reading list](READING.md) — technical blogs and selected articles, organized by topic.
